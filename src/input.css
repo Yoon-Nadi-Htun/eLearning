@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:ital@1&family=Nunito:wght@400;500;600;700&family=Padauk:wght@400;700&family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:ital@1&family=Nunito:wght@400;500;600;700&family=Padauk:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Heebo:wght@400;500&family=Montserrat:ital@1&family=Nunito:wght@400;500;600;700&family=Padauk:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+@layer components {
+    .btn {
+        @apply hover:bg-black hover:text-sky-300 transition-all duration-300
+    }
+    /* .social-icons {
+        @apply flex mt-5 w-auto rounded-full border-2 border-transparent
+        hover:bg-white hover:to-primary transition-all duration-300
+      } */
+}
