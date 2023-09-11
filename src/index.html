@@ -8,15 +8,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+<!-- nav bar -->
+<header class="bg-white text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 px-10">
+      <i class="fa-solid fa-book text-secondary text-3xl"></i>
+      <span class="ml-3 text-secondary text-3xl font-bold">eLEARNING</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <button>
+        <a class="mr-5 text-secondary font-medium">HOME</a>
+      </button>
+      <button>
+        <a class="mr-5 hover:text-secondary font-medium">ABOUT</a>
+      </button>
+      <button>
+        <a class="mr-5 hover:text-secondary font-medium">COURSES</a>
+      </button>
+      <div class="relative inline-block">
+        <button class="cursor-pointer static mr-5 font-medium rounded-lg text-base text-center inline-flex items-center hover:text-secondary overflow-hidden" type="button">PAGES
+            <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+            </svg>
+        </button>
+<!-- Dropdown menu -->
+<div class="min-w-[160px] absolute z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+      <li>
+        <a href="#" class="text-white block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Our Team</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Testimonial</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">404 Pages</a>
+      </li>
+    </ul>
+</div>
+      </div>
+
+      <button>
+        <a class="mr-5 hover:text-secondary font-medium">CONTACT</a>
+      </button>
+    </nav>
+    <button class="bg-secondary text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">Join Now
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
     <!-- Bottom Bar -->
-    <div class="container flex justify-center items-center mx-auto">
-        <div class="text-center">
-            <h1 class="text-center bg-white text-primary px-5 pt-10 text-lg">
-               __-- TESTIMONIAL --__
-            </h1>
-            <h2 class=" text-center font-medium text-4xl py-1">Our Students Say!</h2>
+    <div class="flex flex-col justify-center items-center gap-1">
+        <div class="flex justify-center">
+          <div class="relative mt-2">
+            <div class="w-[45px] h-[3px] bg-secondary absolute right-0 top-[2%]"></div>
+            <div class="w-[60px] h-[2px] bg-secondary absolute right-0 top-[30%]"></div>
+          </div>
+          <h1 class="text-center bg-white text-secondary px-5 text-lg">TESTIMONIAL</h1>
+          <div class="pe-10 relative mt-2">
+            <div class="w-[45px] h-[3px] bg-secondary absolute left-0 top-[2%]"></div>
+            <div class="w-[60px] h-[2px] bg-secondary absolute left-0 top-[30%]"></div>
+          </div>
         </div>
-    </div>
+      </div>
+      <div class="flex justify-center items-center pe-6">
+        <h2 class=" text-center font-medium text-4xl py-1">Our Students Say!</h2>
+      </div>
 
     <div class="flex justify-center items-center">
         
